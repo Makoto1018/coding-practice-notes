@@ -68,6 +68,17 @@
       "order": 5,
       "referenced": false,
       "file": "notes/01-array/0059-spiral-matrix-ii.md"
+    },
+    {
+      "id": "0203",
+      "title": "Remove Linked List Elements",
+      "slug": "remove-linked-list-elements",
+      "difficulty": "Easy",
+      "chapter": "02-linked-list",
+      "tags": ["虛擬頭節點"],
+      "order": 6,
+      "referenced": true,
+      "file": "notes/02-linked-list/0203-remove-linked-list-elements.md"
     }
   ]
 }
