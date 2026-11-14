@@ -1,0 +1,73 @@
+{
+  "chapters": [
+    { "id": "01-array", "name": "陣列" },
+    { "id": "02-linked-list", "name": "鏈結串列" },
+    { "id": "03-hash-table", "name": "雜湊表" },
+    { "id": "04-string", "name": "字串" },
+    { "id": "05-stack-queue", "name": "堆疊與佇列" },
+    { "id": "06-binary-tree", "name": "二元樹" },
+    { "id": "07-backtracking", "name": "回溯" },
+    { "id": "08-greedy", "name": "貪心" },
+    { "id": "09-dynamic-programming", "name": "動態規劃" },
+    { "id": "10-monotonic-stack", "name": "單調堆疊" },
+    { "id": "11-graph", "name": "圖論" }
+  ],
+  "tags": ["二分搜尋", "雙指標", "滑動窗口", "模擬", "虛擬頭節點"],
+  "problems": [
+    {
+      "id": "0704",
+      "title": "Binary Search",
+      "slug": "binary-search",
+      "difficulty": "Easy",
+      "chapter": "01-array",
+      "tags": ["二分搜尋"],
+      "order": 1,
+      "referenced": false,
+      "file": "notes/01-array/0704-binary-search.md"
+    },
+    {
+      "id": "0027",
+      "title": "Remove Element",
+      "slug": "remove-element",
+      "difficulty": "Easy",
+      "chapter": "01-array",
+      "tags": ["雙指標"],
+      "order": 2,
+      "referenced": false,
+      "file": "notes/01-array/0027-remove-element.md"
+    },
+    {
+      "id": "0977",
+      "title": "Squares of a Sorted Array",
+      "slug": "squares-of-a-sorted-array",
+      "difficulty": "Easy",
+      "chapter": "01-array",
+      "tags": ["雙指標"],
+      "order": 3,
+      "referenced": false,
+      "file": "notes/01-array/0977-squares-of-a-sorted-array.md"
+    },
+    {
+      "id": "0209",
+      "title": "Minimum Size Subarray Sum",
+      "slug": "minimum-size-subarray-sum",
+      "difficulty": "Medium",
+      "chapter": "01-array",
+      "tags": ["滑動窗口"],
+      "order": 4,
+      "referenced": true,
+      "file": "notes/01-array/0209-minimum-size-subarray-sum.md"
+    },
+    {
+      "id": "0059",
+      "title": "Spiral Matrix II",
+      "slug": "spiral-matrix-ii",
+      "difficulty": "Medium",
+      "chapter": "01-array",
+      "tags": ["模擬"],
+      "order": 5,
+      "referenced": false,
+      "file": "notes/01-array/0059-spiral-matrix-ii.md"
+    }
+  ]
+}
