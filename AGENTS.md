@@ -2,6 +2,35 @@
 
 這個 repo 是 LeetCode 刷題筆記網站（GitHub Pages 純靜態）。你最常被要求做的事是：**使用者給「題目網址 + 程式碼 +（選填）思路」，你把它變成一篇筆記並登記到網站。** 請完全依照本文件，不要自創格式。
 
+## 專案目的
+
+- 「刷題手札」是我的 LeetCode 解題筆記網站，讀者是我自己（面試前複習）與一起準備演算法的同學。
+- 每題一篇筆記，首頁依資料結構分章節（順序參考代碼隨想錄），可依難度與技巧標籤篩選。
+- 程式碼與心得是我寫的；AI 負責排版、整理格式，以及標示清楚的補充說明。
+
+## 技術限制
+
+- 只用純 HTML、CSS、原生 JavaScript；不使用框架、npm 或任何建置工具。
+- 外部資源只允許：cdnjs 上固定版本的 marked 4.3.0、highlight.js 11.9.0（含 cpp），以及 Google Fonts 的 Noto Sans TC、JetBrains Mono。
+- 部署在 GitHub Pages：所有路徑用相對路徑、檔名一律小寫，根目錄保留 `.nojekyll`。
+- `scripts/validate.py` 只能使用 Python 標準函式庫。
+
+## 視覺風格
+
+所有顏色都定義在 `assets/style.css` 的 `:root` CSS 變數，HTML 不寫 inline style；要調整樣式只改 `style.css`。
+
+| 項目 | 規格 |
+|---|---|
+| 主色 | `#4f46e5`（標題、連結、篩選按鈕、技巧標籤） |
+| 背景／卡片 | 背景 `#f8fafc`、卡片 `#ffffff`，卡片圓角 `12px` |
+| 文字 | 內文 `#1e293b`、次要文字 `#64748b` |
+| 難度 | Easy `#16a34a`、Medium `#ea580c`、Hard `#dc2626` |
+| AI 補充區塊 | 底色 `#fefce8`、左邊框 `#ca8a04` |
+| 字體 | 內文 `"Noto Sans TC"`；程式碼 `"JetBrains Mono"`（關閉連字，避免 `<=` 被顯示成 `≤`） |
+| 版面 | 內容置中，最大寬度 `800px` |
+| 深色模式 | 跟隨系統 `prefers-color-scheme: dark`，在同一個 `:root` 變數組內覆寫 |
+| 手機 | 375px 寬度下整頁不可橫向捲動；程式碼區塊與表格可在區塊內捲動 |
+
 ## 專案結構
 
 ```
